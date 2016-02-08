@@ -1,0 +1,11 @@
+{
+  "name": "vote-for-employee",
+  "version": "1.0.0",
+  "description": "Application to vote for the employee of the week: an employee that has been extra helpful or someone that you have learned from",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesper Funk",
+  "license": "ISC"
+}
