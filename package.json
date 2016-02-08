@@ -4,8 +4,20 @@
   "description": "Application to vote for the employee of the week: an employee that has been extra helpful or someone that you have learned from",
   "main": "index.js",
   "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/broedkanibal/vote-for-employee.git"
+  },
   "author": "Jesper Funk",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "watchify": "^3.7.0"
+  }
 }
